@@ -1,0 +1,12 @@
+Colors
+
+Primary Yellow : #f2b922
+Secondary Green : #347758
+
+Container : 1650px
+
+Font Family:
+Signika
+ROBOTO
+
+Section Space : 80px (Bottom)
