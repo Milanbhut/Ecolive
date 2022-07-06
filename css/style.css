@@ -19,6 +19,10 @@
     box-sizing: border-box;
     font-family: var(--signika);
 }
+::selection{
+    background-color: var(--green);
+    color: var(--white);
+}
 a{
     text-decoration: none;
 }
@@ -80,7 +84,18 @@ img{
 .col-12{
     width: 100%;
 }
-
+.btn{
+    background-color: var(--yellow);
+    color: var(--font-3d);
+    border-radius: 5px;
+    padding: 17px 40px;
+    font-weight: 700;
+    transition: 0.5s;
+}
+.btn:hover{
+    background-color: var(--green);
+    color: var(--white);
+}
 /* ===================== Header ========================= */
 .header-top{
     padding: 30px 0;
@@ -193,6 +208,84 @@ img{
 .nav-items{
     padding: 0 15px;
 }
+.navigation ul{
+    padding: 0;
+}
+.navigation ul li a{
+    color: var(--font-3d);
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.navigation ul li a:before{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 1px;
+    width: 0;
+    background-color: var(--green);
+    transition: all 0.5s;
+}
+.drop-menu{
+    position: absolute;
+    padding: 10px 0;
+}
+.drop-menu a{
+    padding: 5px 0;
+}
+.navigation ul li a:hover::before{
+    width: 100%;
+}
+.navigation ul li a i{
+    padding-left: 7px;
+    font-size: 14px;
+}
 .ship {
     text-align: right;
+    color: var(--font-65);
+}
+.ship i{
+    padding-right: 10px;
+    color: var(--black);
+    font-size: 20px;
+}
+
+/* =================== Banner ================ */
+.banner{
+    background-color: #f9f1e4;
+    padding-top: 30px;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+}
+.banner:after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 60%;
+    height: 100%;
+    width: 100%;
+    background: url("../images/banner-bg.png") no-repeat;
+    z-index: -1;
+}
+.banner .col-6 .banner-image{
+    padding-left: 30px;
+}
+.banner .banner-content{
+    padding: 100px 0;
+}
+.banner .banner-content h1{
+    font-size: 90px;
+    color: var(--green);
+    margin-bottom: 30px;
+    line-height: 1;
+}
+.banner .banner-content p{
+    font-size: 24px;
+    color: var(--font-65);
+    margin-bottom: 80px;
+}
+.banner .banner-content img {
+    margin-left: -50px;
 }
