@@ -47,6 +47,7 @@ img{
 .row{
     display: flex;
     flex-wrap: wrap;
+    margin: 0 -15px;
 }
 .col-1{
     width: 8.33%;
@@ -95,6 +96,12 @@ img{
 .btn:hover{
     background-color: var(--green);
     color: var(--white);
+}
+.heading h2{
+    font-size: 36px;
+    color: var(--green);
+    font-weight: 700;
+    margin-bottom: 30px;
 }
 /* ===================== Header ========================= */
 .header-top{
@@ -323,4 +330,40 @@ img{
     color: var(--font-65);
     line-height: 26px;
     max-width: 250px;
+}
+/* ============= Offers ============== */
+.offers{
+    padding: var(--sec-space);
+}
+.offers .row .col-6{
+    padding: 0 15px;
+}
+.off {
+    background-image: url("../images/fish.jpeg");
+    padding: 80px 55px;
+    border-radius: 24px;
+    background-size: 100%;
+    transition: all 0.5s;
+}
+.off:hover{
+    background-size: 110%;
+    cursor: pointer;
+}
+.off h2{
+    font-size: 36px;
+    color: var(--white);
+    margin-bottom: 10px;
+}
+.off p{
+    font-size: 15px;
+    color: var(--white);
+}
+.off-2{
+    background-image: url("../images/orange.jpeg");
+}
+.off-2 h2{
+    color: var(--green);
+}
+.off-2 p{
+    color: var(--font-65);
 }
