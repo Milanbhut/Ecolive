@@ -126,10 +126,40 @@
 
 @font-face {
     font-family: 'Ecolive';
-    src: url('../fonts/ecolive-2.woff2') format('woff2');
+    src: url("../fonts/Ecolive-Body-Bold.eot");
 } 
 
 @font-face {
     font-family: 'Ecolive';
-    src: url('../fonts/ecolive.woff2') format('woff2');
+    src: url("../fonts/Ecolive-Body-Bold.woff");
+} 
+
+@font-face {
+    font-family: 'Ecolive';
+    src: url("../fonts/Ecolive-Body-Bold.woff2");
+} 
+
+@font-face {
+    font-family: 'Ecolive';
+    src: url("../fonts/Ecolive-Body-Boldd41d.eot");
+} 
+
+@font-face {
+    font-family: 'Ecolive';
+    src: url("../fonts/Ecolive-Body-Regular.eot");
+} 
+
+@font-face {
+    font-family: 'Ecolive';
+    src: url("../fonts/Ecolive-Body-Regular.woff");
+} 
+
+@font-face {
+    font-family: 'Ecolive';
+    src: url("../fonts/Ecolive-Body-Regulard41d.eot");
+} 
+
+@font-face {
+    font-family: 'Ecolive';
+    src: url("../fonts/Ecolive-Body-Regular.woff2");
 } 

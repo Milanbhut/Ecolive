@@ -1,5 +1,6 @@
 /* font-family: 'Roboto'; */
 /* font-family: 'Signika'; */
+/* font-family: 'Ecolive'; */
 
 
 /* =========== Variables -============ */
@@ -13,11 +14,14 @@
     --sec-space: 0 0 80px;
     --signika: 'Signika';
     --transition: all 0.5s;
+    --ecolive: 'Ecolive';
 }
 /* =================== Default CSS ================ */
 *{
     margin: 0;
     box-sizing: border-box;
+}
+body{
     font-family: var(--signika);
 }
 ::selection{
@@ -93,6 +97,7 @@ img{
     padding: 17px 40px;
     font-weight: 700;
     transition: 0.5s;
+    display: inline-block;
 }
 .btn:hover{
     background-color: var(--green);
@@ -131,8 +136,8 @@ img{
     font-weight: 600;
     color: var(--font-3d);
     transition: var(--transition);
-    font-family: var(--signika);
-    font-size: 20px;
+    font-family: var(--ecolive);
+    font-size: 16px;
     padding-right: 50px;
 }
 .top-search {
@@ -152,6 +157,7 @@ img{
     border-radius: 12px;
     border: 2px solid #F2F2F2;
     width: 616px;
+    font-family: var(--ecolive);
 }
 .top-search input[type="text"]::placeholder{
     color: var(--font-65);
@@ -163,10 +169,10 @@ img{
     justify-content: flex-end;
 }
 .top-account a {
-    font-family: var(--signika);
     font-size: 14px;
     color: var(--font-3d);
     margin-left: 20px;
+    font-family: var(--ecolive);
 }
 .top-account i {
     color: var(--green);
@@ -203,6 +209,7 @@ img{
 .header-bottom{
     padding: 20px 0;
     align-items: center;
+    font-family: var(--ecolive);
 }
 .header-bottom .row{
     align-items: center;
@@ -216,6 +223,7 @@ img{
     font-weight: 700;
     font-size: 14px;
     text-transform: capitalize;
+    font-family: var(--ecolive);
 }
 .cat-btn i.fa-arrows-to-circle{
     margin-right: 10px;
@@ -303,6 +311,7 @@ img{
     font-size: 24px;
     color: var(--font-65);
     margin-bottom: 80px;
+    font-family: var(--ecolive);
 }
 .banner .banner-content img {
     margin-left: -50px;
@@ -341,6 +350,7 @@ img{
     color: var(--font-65);
     line-height: 26px;
     max-width: 250px;
+    font-family: var(--ecolive);
 }
 /* ============= Offers ============== */
 .offers {
@@ -370,6 +380,7 @@ img{
 .off p{
     font-size: 15px;
     color: var(--white);
+    font-family: var(--ecolive);
 }
 .off-2{
     background-image: url("../images/orange.jpeg");
@@ -430,6 +441,7 @@ img{
     border-radius: 10px;
     background-color: #f4f4f4;
     color: var(--font-3d);
+    font-family: var(--ecolive);
 }
 .product .pro-cat{
     color: var(--yellow);
@@ -437,6 +449,7 @@ img{
     line-height: 24px;
     margin-bottom: 8px;
     font-weight: 600;
+    font-family: var(--ecolive);
 }
 .product .pro-name{
     color: var(--font-3d);
@@ -448,11 +461,13 @@ img{
 .product .pro-unit{
     font-weight: 600;
     font-size: 15px;
+    font-family: var(--ecolive);
 }
 .product .pro-unit span{
     color: #BCBCBC;
     line-height: 24px;
     font-weight: 400;
+    font-family: var(--ecolive);
 }
 .product .price{
     justify-content: space-between;
@@ -474,4 +489,37 @@ img{
 .product .price .bhav{
     font-size: 20px;
     color: var(--green);
+}
+
+/* ================= veg-baanner ================ */
+.veg-baanner-content{
+    background-image: url("../images/veg-banner.jpg");
+    background-size: 115%;
+    text-align: center;
+    border-radius: 24px;
+    padding: 135px 0;
+    transition: var(--transition);
+}
+.veg-baanner-content:hover{
+    cursor: pointer;
+    background-position: 0 30%;
+}
+.veg-baanner-content h4{
+    font-size: 14px;
+    color: var(--green);
+    font-family: var(--ecolive);
+    margin-bottom: 15px;
+    letter-spacing: 2px;
+}
+.veg-baanner-content h2{
+    font-size: 52px;
+    color: var(--white);
+    margin-bottom: 10px;
+}
+.veg-baanner-content h3{
+    font-size: 24px;
+    color: var(--white);
+    font-family: var(--ecolive);
+    font-weight: 500;
+    margin-bottom: 40px;
 }
